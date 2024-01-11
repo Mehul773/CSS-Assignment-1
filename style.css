@@ -1,0 +1,53 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #d8da3d;
+  color: #80007e;
+}
+aside {
+  width: 20%;
+  margin-right: 5%;
+}
+
+main {
+  width: 80%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: block;
+  margin: 0.6em;
+  padding: 0.4em;
+  background: rgb(243, 243, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 243, 245, 1) 0%,
+    rgba(233, 233, 240, 1) 90%,
+    rgba(71, 71, 73, 1) 90%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+main section p {
+  overflow: hidden;
+  font-size: 1.1em;
+}
+
+.dotted-line {
+  border-top: 1px dotted #000;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1266px) {
+  aside {
+    width: 250px;
+  }
+}
