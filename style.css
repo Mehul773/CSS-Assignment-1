@@ -3,9 +3,12 @@ body {
   background-color: #d8da3d;
   color: #80007e;
 }
+
+/* Add width 20% to sidebar and  80% to main so they can get proper width  */
 aside {
   width: 20%;
-  margin-right: 5%;
+  margin-right: 4%;
+  margin-top: 2%;
 }
 
 main {
@@ -16,6 +19,7 @@ ul {
   list-style-type: none;
 }
 
+/* For right black box in sidebar  */
 ul li {
   display: block;
   margin: 0.6em;
@@ -35,6 +39,7 @@ main section p {
   font-size: 1.1em;
 }
 
+/* For dotted line above copyright */
 .dotted-line {
   border-top: 1px dotted #000;
   width: 100%;
@@ -46,6 +51,7 @@ main section p {
   justify-content: space-between;
 }
 
+/* For Smaller device  */
 @media screen and (max-width: 1266px) {
   aside {
     width: 250px;
